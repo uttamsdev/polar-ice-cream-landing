@@ -6,6 +6,7 @@
   /* box-sizing: border-box; */
   text-decoration: none;
   list-style: none;
+  scroll-behavior: smooth;
 }
 header {
   min-height: 100vh;
@@ -322,7 +323,7 @@ input:first-child {
   margin-bottom: 20px;
 }
 .send-btn {
-  height: 68px;
+  height: 69px;
   margin-left: -50px;
   width: 150px;
 }
@@ -402,7 +403,7 @@ footer {
     width: 120px;
     /* margin:0; */
     padding: 0;
-    height: 56px;
+    height: 58px;
 }
 .subscribe-btn:hover{
     padding: 0;
