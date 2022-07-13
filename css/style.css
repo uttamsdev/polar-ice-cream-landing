@@ -148,3 +148,75 @@ header {
   font-family: "Roboto", sans-serif;
   margin: 16px 0px 35px 0px;
 }
+
+/* // product section  */
+.product-section {
+  margin-top: 110px;
+}
+.product-section > h1 {
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 45px;
+  color: #150101;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 55px;
+}
+.navs {
+  display: flex;
+  justify-content: center;
+}
+.navs a {
+  color: #000000;
+  opacity: 0.6;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  margin-right: 40px;
+}
+.product-details h2 {
+  font-weight: 700;
+  font-size: 28px;
+  color: #000000;
+  font-family: "Hind Madurai", sans-serif;
+  margin-bottom: 11px;
+}
+.product-details > p {
+  font-size: 16px;
+  color: #000000;
+  opacity: 0.7;
+  font-family: "Roboto", sans-serif;
+}
+.price {
+  font-family: "Hind Madurai", sans-serif;
+  display: flex;
+  /* justify-content: center; */
+  margin-top: 20px;
+  margin-bottom: 10px;
+  align-items: center;
+  gap: 10px;
+}
+.price > p {
+  font-weight: 500;
+  font-size: 26px;
+  color: #000000;
+}
+.price .del-price {
+  color: #000000;
+
+  opacity: 0.7;
+  font-size: 20px;
+  text-decoration: line-through;
+}
+
+.product-image{
+    /* width: 480px; */
+}
+.product-details{
+    width: 460px;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
