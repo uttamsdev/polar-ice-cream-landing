@@ -38,8 +38,10 @@ header {
   font-weight: 700;
   color: #fafafa;
   padding: 13px 40px;
+  box-sizing: border-box;
 }
 .common-btn:hover {
+    box-sizing: border-box;
   color: #d23166;
   background: #fafafa;
   border: 2px solid #d23166;
@@ -208,8 +210,8 @@ header {
   text-decoration: line-through;
 }
 
-.product-image{
-    /* width: 480px; */
+.product-image img{
+    width: 480px !important;
 }
 .product-details{
     width: 460px;
@@ -218,5 +220,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 110px;
+    margin-top: 50px;
 }
