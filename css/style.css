@@ -9,6 +9,7 @@
 }
 header {
   min-height: 100vh;
+  background: #fcf1f4;
 }
 .navbar {
   display: flex;
@@ -28,7 +29,7 @@ header {
   opacity: 0.6;
   font-family: "Roboto", sans-serif;
 }
-.buy-btn {
+.common-btn {
   border: none;
   background: #d23166;
   border-radius: 5px;
@@ -37,6 +38,12 @@ header {
   font-weight: 700;
   color: #fafafa;
   padding: 13px 40px;
+}
+.common-btn:hover {
+  color: #d23166;
+  background: #fafafa;
+  border: 2px solid #d23166;
+  border-radius: 5px;
 }
 .banner {
   display: flex;
@@ -79,4 +86,65 @@ header {
   opacity: 0.6;
   font-size: 18px;
   font-family: "Hind Madurai", sans-serif;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 410px;
+  background-color: white;
+}
+.feature {
+  width: 250px;
+  height: 200px;
+  background: #ffffff;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  font-family: "Hind Madurai", sans-serif;
+}
+
+.feature img {
+  margin: 33px 40% 22px 40%;
+}
+.feature h4 {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 9px;
+}
+.feature p {
+  color: #000000;
+  opacity: 0.6;
+  font-size: 14px;
+  text-align: center;
+  padding: 0px 10px;
+}
+
+/* // details section  */
+.details-section {
+  background-color: #f8edf0;
+  height: 550px;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.details {
+  width: 450px;
+}
+.details h1 {
+  font-size: 45px;
+  color: #150101;
+  font-weight: 600;
+  font-family: "Hind Madurai", sans-serif;
+}
+.details p {
+  font-size: 16px;
+  color: #150101;
+  opacity: 0.6;
+  font-family: "Roboto", sans-serif;
+  margin: 16px 0px 35px 0px;
 }
