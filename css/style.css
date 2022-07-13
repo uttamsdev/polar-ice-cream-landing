@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Comic+Neue:ital,wght@0,400;0,700;1,700&family=Fredoka+One&family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Montserrat:wght@400;700&family=Mulish:wght@300;400&family=Open+Sans:wght@400;600&family=Poppins:wght@400;500&family=Roboto:wght@400;500&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  text-decoration: none;
+  list-style: none;
+}
+header {
+  min-height: 100vh;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 25px;
+}
+.navbar ul li a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #150101;
+  opacity: 0.6;
+  font-family: "Roboto", sans-serif;
+}
+.buy-btn {
+  border: none;
+  background: #d23166;
+  border-radius: 5px;
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fafafa;
+  padding: 13px 40px;
+}
+.banner {
+  display: flex;
+  /* justify-content: center; */
+  /* gap: 100px; */
+}
+.banner-info {
+  margin-top: 200px;
+  width: 700px;
+  padding-left: 250px;
+}
+.banner img {
+  /* width: 900px; */
+  margin-top: 50px;
+  padding-left: 200px;
+}
+.banner-info > p {
+  color: #0f0101;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.banner-info > h1 {
+  margin-top: 6px;
+  font-size: 58px;
+  color: #0f0101;
+  opacity: 0.9;
+  font-weight: 500;
+  font-family: "Fredoka One", cursive;
+  line-height: 120.5%;
+}
+.banner-info span {
+  color: #d23166;
+  opacity: 0.9;
+}
+.banner-info .info {
+  margin-top: 35px;
+  margin-bottom: 50px;
+  color: #0f0101;
+  opacity: 0.6;
+  font-size: 18px;
+  font-family: "Hind Madurai", sans-serif;
+}
