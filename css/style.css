@@ -41,7 +41,7 @@ header {
   box-sizing: border-box;
 }
 .common-btn:hover {
-    box-sizing: border-box;
+  box-sizing: border-box;
   color: #d23166;
   background: #fafafa;
   border: 2px solid #d23166;
@@ -156,7 +156,6 @@ header {
   margin-top: 110px;
   margin-bottom: 100px;
   background-color: white;
-
 }
 .product-section > h1 {
   font-family: "Hind Madurai", sans-serif;
@@ -213,16 +212,68 @@ header {
   text-decoration: line-through;
 }
 
-.product-image img{
-    width: 480px !important;
+.product-image img {
+  width: 480px !important;
 }
-.product-details{
-    width: 460px;
+.product-details {
+  width: 460px;
 }
-.products{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 110px;
-    margin-top: 50px;
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
+  margin-top: 50px;
+}
+
+/* app section  */
+.app-section {
+  height: 670px;
+  background-color: #f8edf0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.app-details > h1 {
+  font-size: 45px;
+  color: #000000;
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 500;
+}
+.app-details > p {
+  font-size: 18px;
+  color: #0f0101;
+  font-family: "Roboto", sans-serif;
+  opacity: 0.7;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+.app-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+}
+.store-logo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 40px;
+}
+.store-logo img {
+  width: 200px;
+}
+.store-logo img:last-child {
+  margin-top: 10px;
+}
+.app-details {
+  width: 650px;
+}
+.banner-img img {
+  filter: drop-shadow(-10px 10px 5px rgba(0, 0, 0, 0.25));
+  border-radius: 25px 25px 10px 10px;
 }
