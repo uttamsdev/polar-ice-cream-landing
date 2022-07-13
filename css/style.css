@@ -239,7 +239,7 @@ header {
 .app-details > h1 {
   font-size: 45px;
   color: #000000;
-  font-family: "Hind Madurai", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
 .app-details > p {
@@ -276,4 +276,64 @@ header {
 .banner-img img {
   filter: drop-shadow(-10px 10px 5px rgba(0, 0, 0, 0.25));
   border-radius: 25px 25px 10px 10px;
+}
+
+/* contact us section  */
+.contact-us-section{
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+.contact-us-section h1{
+    color: #000000;
+    font-weight: 500;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+
+}
+.contact-us-section h1:last-child{
+    margin-bottom: 30px;
+}
+
+.input-group{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
+    /* background-color: pink; */
+}
+input{
+    height: 65px;
+    width: 310px;
+    padding: 0px 25px;
+    border: 1px solid #FFA3A3;
+    font-family: "Roboto", sans-serif;
+}
+input:focus{
+    outline: 1.5px solid crimson;
+}
+input::placeholder{
+    font-size: 14px;
+    font-weight: 500;
+}
+input:first-child{
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.send-btn{
+    height: 68px;
+    margin-left: -50px;
+    width: 150px;
+}
+.send-button-area{
+   display: flex;
+   justify-content: center;
+   margin-top: 25px;
+}
+.send-button-area input{
+    width: 100%;
+    /* margin-top: -10px; */
+}
+.inputs{
+    display: flex;
+    justify-content: center;
 }
