@@ -154,6 +154,9 @@ header {
 /* // product section  */
 .product-section {
   margin-top: 110px;
+  margin-bottom: 100px;
+  background-color: white;
+
 }
 .product-section > h1 {
   font-family: "Hind Madurai", sans-serif;
