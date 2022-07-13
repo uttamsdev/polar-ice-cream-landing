@@ -48,7 +48,7 @@ header {
   background: #fafafa;
   border: 2px solid #d23166;
   border-radius: 5px;
-  padding: 11px 38px ;
+  padding: 11px 38px;
 }
 .banner {
   display: flex;
@@ -341,7 +341,7 @@ input:first-child {
   justify-content: center;
 }
 footer {
-  padding: 100px 0px  80px 0px;
+  padding: 100px 0px 80px 0px;
   background-color: #0a0808;
   font-family: "Roboto", sans-serif;
 }
@@ -381,30 +381,59 @@ footer {
   margin-top: 15px;
   display: block;
 }
-.social-icons img{
-    margin-right: 10px;
+.social-icons img {
+  margin-right: 10px;
 }
-#sub-btn{
-    width: 250px;
-    background-color: #000000;
-    border: 1.6px solid #D64374;
-    border-radius: 5px;
-    color: white;
-    font-size: 16px;
-    height: 50px;
+#sub-btn {
+  width: 250px;
+  background-color: #000000;
+  border: 1.6px solid #d64374;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  height: 50px;
 }
-#sub-btn:focus{
-    outline: none;
+#sub-btn:focus {
+  outline: none;
 }
-.follow a{
-    margin-right: 8px;
+.follow a {
+  margin-right: 8px;
 }
-.subscribe-btn{
-    width: 120px;
-    /* margin:0; */
-    padding: 0;
-    height: 58px;
+.subscribe-btn {
+  width: 120px;
+  /* margin:0; */
+  padding: 0;
+  height: 58px;
 }
-.subscribe-btn:hover{
-    padding: 0;
+.subscribe-btn:hover {
+  padding: 0;
+}
+
+/* // scroll to top back  */
+.to-top {
+  background-color: rgb(22, 22, 22);
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  color: white;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s;
+}
+.to-top.active {
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
+  color: white !important;
+}
+.fa-chevron-up{
+    color: white !important;
 }
