@@ -57,13 +57,14 @@ header {
 }
 .banner {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
+
   /* gap: 100px; */
 }
 .banner-info {
   margin-top: 300px;
   width: 700px;
-  padding-left: 250px;
+  /* padding-left: 30px; */
 }
 .banner img {
   /* width: 900px; */
